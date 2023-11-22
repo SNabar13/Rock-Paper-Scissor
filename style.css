@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color:rgb(65, 92, 162);
+    margin: 0px;
+    padding: 0px;
+  }
+
+.title{
+    
+    font-size: 3rem;   
+    color: #fdfcf7;
+}
+
+.comp-option{
+    color: rgb(232, 240, 122);
+    font-size: 2rem;;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58vh;
+   
+}
+  
+.option{
+    height: 30rem;
+    width: 30rem;  
+    margin: 2rem;
+    border-radius: 15rem;
+    cursor: pointer;
+    background-color: pink;
+    border: 0.2rem solid black;
+   
+}
+
+img{
+    
+    height: 20rem;
+    width: 20rem;      
+    border-radius: 20rem;
+   
+   
+}
+
+.pressed{
+    background-color: rgb(237, 76, 130);
+    box-shadow: 0 0 20px rgba(253, 252, 252, 0.5);
+   
+}
+
+.restart-msg{
+   color: rgb(246, 184, 205);
+   font-size: 2rem;
+ 
+}
+
